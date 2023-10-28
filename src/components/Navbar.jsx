@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <p className="font-poppins font-medium text-[18px] leading-[23px]">
+      <div className="font-poppins font-medium text-[18px] leading-[23px]">
         <div className="ss:text-[44px] text-[48px] text-tertiary">FIX PDP</div>
         <div className="hidden text-tertiary"></div>
         <div className="py-2 sm:hidden flex mr-0 w-[50px] text-tertiary">
@@ -19,7 +19,7 @@ const Navbar = () => {
             {phoneNumber.visibleNumber}
           </a>
         </div>
-      </p>
+      </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, i) => (
           <li
