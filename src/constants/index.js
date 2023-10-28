@@ -3,7 +3,6 @@ import {
   people02,
   people03,
   facebook,
-  send,
   shield,
   star,
   phone,
@@ -216,10 +215,5 @@ export const socialMedia = [
     id: "social-media-1",
     icon: facebook,
     link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.google.com/",
   },
 ];
