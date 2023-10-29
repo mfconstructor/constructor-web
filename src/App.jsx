@@ -1,16 +1,12 @@
 import React from "react";
 import {
-  Billing,
-  Business,
-  CardDeal,
-  Clients,
-  CTA,
+  About,
   Footer,
-  Hero,
+  Contact,
+  Intro,
   Navbar,
   Stats,
   Offer,
-  Testimonials,
   Gallery,
 } from "./components";
 import { backgroundImage } from "./assets";
@@ -32,17 +28,16 @@ const App = () => {
         }}
       >
         <div className={`${styles.boxWidth}`}>
-          <Hero />
+          <Intro />
         </div>
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
-          <Business />
+          <About />
           <Gallery />
           <Offer />
-          {/*<Testimonials />*/}
-          <CTA />
+          <Contact />
           <Footer />
         </div>
       </div>

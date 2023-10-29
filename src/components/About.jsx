@@ -24,7 +24,7 @@ const AdvantageCart = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () => {
+const About = () => {
   return (
     <section id="o-firmie" className={layout.section}>
       <div>
@@ -51,4 +51,4 @@ const Business = () => {
   );
 };
 
-export default Business;
+export default About;

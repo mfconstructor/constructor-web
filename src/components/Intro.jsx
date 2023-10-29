@@ -1,8 +1,8 @@
 import styles from "../style";
-import { discount, worker, robot } from "../assets";
+import { worker } from "../assets";
 import SeeProjects from "./SeeProjects";
 
-const Hero = () => {
+const Intro = () => {
   return (
     <section
       id="home"
@@ -27,7 +27,7 @@ const Hero = () => {
           FIX DPD to profesjonalna firma remontowo-wykończeniowa, która spełni
           wszelkie Twoje oczekiwania. Wyróżnia mnie wysoka jakość usług,
           kompleksowe podejście do prac remontowo-budowlanych, a także korzystne
-          warunki realizacji. Oferuję konkurencyjne ceny i zapewniamm bardzo
+          warunki realizacji. Oferuję konkurencyjne ceny i zapewniam bardzo
           dobry kontakt.
         </p>
       </div>
@@ -50,4 +50,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Intro;
